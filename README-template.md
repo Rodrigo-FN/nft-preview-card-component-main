@@ -11,7 +11,7 @@ This is a solution to the [NFT preview card component challenge on Frontend Ment
 
 ### Links
 
-- URL: [NFT card]()
+- URL: [NFT card](https://rodrigo-fn.github.io/nft-preview-card-component-main/)
 
 ## My process
 

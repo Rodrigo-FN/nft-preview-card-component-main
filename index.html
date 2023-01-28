@@ -1,33 +1,57 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/images/favicon-32x32.png">
   
   <title>Frontend Mentor | NFT preview card component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="stylesheet" href="./src/css/style.css">
+
 </head>
 <body>
+  <main>
+    <section class="principal">
 
-  Equilibrium #3429
+      <article class="img__principal">
+        <div>
+          <img src="./src/images/image-equilibrium.jpg" alt="Logo Equilibrium">
+        </div>
+      </article>
 
-  Our Equilibrium collection promotes balance and calm.
+      <article class="texto__principal">
+        <h1>Equilibrium #3429</h1>
+        <p>Our Equilibrium collection promotes balance and calm.</p>
+      </article>
 
-  0.041 ETH
-  3 days left
+      <article class="preco__principal"> 
+        <ul>
+          <li class="preco">0.041 ETH</li>
+          <li class="dias">  3 days left</li>
+        </ul>
+        
+      </article>
+
+
+      <article class="avatar">
+        <img src="./src/images/image-avatar.png" alt="Rodrigo Faria Nunes">
+
+        <p>  Creation of <span>Jules Wyvern</span></p>
+      </article>
+    </section>
+  </main>
   
-  Creation of Jules Wyvern
 
-  <div class="attribution">
+  <footer class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    Coded by <a href="https://www.linkedin.com/in/rodrigo-faria-000790263/" target="_blank">Rodrigo Faria</a>.
+  </footer>
 </body>
 </html>
